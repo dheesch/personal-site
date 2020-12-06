@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import Head from 'next/head'
+import Waveform from '../waveform'
 
 class Header extends Component {
   constructor() {
@@ -14,7 +15,7 @@ class Header extends Component {
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" href="/css/app.min.css" />
         </Head>
-        <h1> Header </h1>
+        <Waveform />
       </div>
 
     )
